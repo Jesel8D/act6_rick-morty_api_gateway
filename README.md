@@ -38,7 +38,7 @@ El servidor arranca en `http://localhost:3001`.
 
 CORS configurado para aceptar exclusivamente peticiones desde `FRONTEND_URL`. En producción, apunta a la URL de Vercel.
 
-## ☁️ Producción
+## Producción
 
 Desplegado en **Render** como Web Service Node.js.  
 Build: `npm install && npm run build` | Start: `node dist/main`
