@@ -4,21 +4,21 @@
 
 API Gateway / Backend for Frontend desarrollado con **NestJS**. Actúa como único punto de entrada para el Frontend: distribuye las peticiones hacia la API pública de Rick & Morty y hacia el Microservicio de Persistencia. **No posee base de datos propia.**
 
-## 🏛 Rol en la Arquitectura SOA
+## Rol en la Arquitectura SOA
 
 ```
 Frontend → [API Gateway / BFF] → Persistence Microservice
-                              ↘ Rick & Morty API (externa)
+                               Rick & Morty API (externa)
 ```
 
-## 🛠 Tecnologías
+## Tecnologías
 
 - NestJS 11
 - TypeScript
 - @nestjs/axios (HTTP client)
 - RxJS
 
-## 🚀 Levantar en local
+## Levantar en local
 
 ```bash
 # 1. Instalar dependencias
@@ -34,7 +34,7 @@ npm run start:dev
 
 El servidor arranca en `http://localhost:3001`.
 
-## 🔒 Seguridad
+## Seguridad
 
 CORS configurado para aceptar exclusivamente peticiones desde `FRONTEND_URL`. En producción, apunta a la URL de Vercel.
 
